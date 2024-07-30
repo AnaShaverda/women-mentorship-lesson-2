@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+}
+.nav-ul {
+  display: flex;
+  align-items: center;
+}
+.flag {
+  vertical-align: middle;
+}
+.nav-li {
+  margin-left: 20px;
+}
+.navigation-container {
+  background-color: #f9f1f1;
+  display: flex;
+  justify-content: center;
+}
+.navigation-container a {
+  padding: 10px;
+  transition: 0.3s linear;
+}
+.navigation-container a:hover {
+  background-color: #f27a1a;
+}
+.section1-container {
+  background-image: url("/images/section-1.png");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.section2-container {
+  display: flex;
+  justify-content: center;
+}
+table {
+  width: 70%;
+}
+td {
+  border: 1px solid black;
+  padding: 10px;
+  width: 35%;
+}
+.iframe-container {
+  display: flex;
+  justify-content: center;
+}
